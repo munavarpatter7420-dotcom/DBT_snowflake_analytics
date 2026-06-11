@@ -1,0 +1,12 @@
+snowflake:
+  target: dev
+  outputs: 
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DBT_DEV
+      schema: PUBLIC
+      account: HIJOBMB-GT87151
+      user: Munavar
+      
