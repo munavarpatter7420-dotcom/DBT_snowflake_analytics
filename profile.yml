@@ -1,12 +1,14 @@
-snowflake:
-  target: dev
-  outputs: 
+
+my_first_project:
+  outputs:
     dev:
-      type: snowflake
-      role: ACCOUNTADMIN
-      warehouse: COMPUTE_WH
-      database: DBT_DEV
-      schema: PUBLIC
       account: HIJOBMB-GT87151
+      database: DBT_SNOWFLAKE
+      password: qk2ecaPgC8tkxfb
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 50
+      type: snowflake
       user: Munavar
-      
+      warehouse: COMPUTE_WH
+  target: dev
