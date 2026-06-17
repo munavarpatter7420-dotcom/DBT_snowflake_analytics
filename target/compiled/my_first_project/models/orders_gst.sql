@@ -1,0 +1,11 @@
+
+
+SELECT
+    ORDER_ID,
+    AMOUNT,
+    
+
+    AMOUNT * 0.18
+
+ AS GST
+FROM PUBLIC.ORDERS
